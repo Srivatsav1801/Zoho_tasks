@@ -2,13 +2,13 @@ import java.util.*;
 public class Largest_subarray {
     public static void main(String[] args) {
 		int n,i;
-		/* Scanner input = new Scanner(System.in);
-		n = input.nextInt(); */
-		int[] nums = new int[10];
-		/* for(i=0;i<n;i++){
+		Scanner input = new Scanner(System.in);
+		n = input.nextInt(); 
+		int[] nums = new int[n];
+		for(i=0;i<n;i++){
 			nums[i] = input.nextInt();			
-		} */
-		nums = { 2, 5, 0, 2, 1, 4, 3, 6, 1, 0 }
+		}
+		/* nums = { 2, 5, 0, 2, 1, 4, 3, 6, 1, 0 }; */
         findLargestSubArray(nums);
     }
 

@@ -13,7 +13,7 @@ Largest number using the said array numbers: 643210 */
 import java.util.*;
 class Form_largest_number{
 	public static void main(String[] args){
-		int i,j,temp;
+		int i,j,temp,result=1;
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the no of element in the array:");
 		int n = input.nextInt();
@@ -31,8 +31,12 @@ class Form_largest_number{
                 }
             }
         }
-		for(i = 0; i<n;i++){
-			System.out.print(array[i]);
+		result= array[0];
+		for(i = 1; i<n;i++){
+			result *= 10;
+			result += array[i];
 		}
+		System.out.println(result);	
+		
 	}
 }
