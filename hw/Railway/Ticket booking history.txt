@@ -1,0 +1,91 @@
+PNR: 4793
+Departure point: chetpet
+Destination point: potheri
+Class: First class
+Payment amount:Rs 0
+Transaction completed via UPI
+
+PNR: 5088
+Departure point: beach
+Destination point: potheri
+Class: First class
+Payment amount:Rs 130
+Transaction completed via UPI
+
+PNR: 8483
+Departure point: beach
+Destination point: potheri
+Class: First class
+Payment amount:Rs 130
+Transaction completed via UPI
+
+PNR: 8254
+Departure point: park
+Destination point: tambaram
+Class: First class
+Payment amount:Rs 115
+Transaction completed via UPI
+
+PNR: 7597
+Departure point: beach
+Destination point: chetpet
+Class: First class
+Payment amount:Rs 45
+Transaction completed via UPI
+
+PNR: 2836
+Departure point: beach
+Destination point: park
+Class: First class
+Payment amount:Rs 45
+Transaction completed via Rwallet
+
+PNR: 9127
+Departure point: saidapet
+Destination point: tambaram
+Class: First class
+Payment amount:Rs 110
+Transaction completed via UPI
+
+PNR: 7535
+Departure point: trisulam
+Destination point: tambaram
+Class: Second class
+Payment amount:Rs 0
+Transaction completed via UPI
+
+PNR: 1820
+Departure point: beach
+Destination point: chengalpattu
+Class: Second class
+Payment amount:Rs 15
+Transaction completed via UPI
+
+PNR: 3100
+Departure point: trisulam
+Destination point: tambaram
+Class: Second class
+Payment amount:Rs 0
+Transaction failed!
+
+PNR: 6906
+Departure point: tambaram
+Destination point: guduvancheri
+Class: Second class
+Payment amount:Rs 5
+Transaction completed via UPI
+
+PNR: 3541
+Departure point: beach
+Destination point: potheri
+Class: Second class
+Payment amount:Rs 15
+Transaction completed via Rwallet
+
+PNR: 138
+Departure point: park
+Destination point: potheri
+Class: First class
+Payment amount:Rs 130
+Transaction completed via UPI
+

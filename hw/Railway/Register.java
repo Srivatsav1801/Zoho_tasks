@@ -1,8 +1,8 @@
+package Railway;
 import java.util.*;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 class Register{
-	public static void main(String[] args) throws IOException{
+	public static void account_register() throws IOException{
 		Scanner sc = new Scanner(System.in);
 		FileWriter Writer = null;
 		FileWriter Writer_login = null;
@@ -13,8 +13,8 @@ class Register{
 		String name = sc.nextLine();
 		Writer.write("Name: "+ name);
 		System.out.println("Enter your Phone no: ");
-		String phone_no = sc.nextLine();
-		Writer.write("\nPhone no: "+ phone_no);
+		int phone_no = sc.nextInt();
+		Writer.write("\nPhone no: "+ String.valueOf(phone_no));
 		System.out.println("The password should be of length 8 - 20 characters,1 special character,1 uppercase,1 lowercase,1 digit,no space");
 		System.out.println("Enter your password:");
 		String password = sc.nextLine();
@@ -50,9 +50,11 @@ class Register{
 		else{
 			System.out.println("Password mismatch!");
 			Writer.write("\nAccount creation error\n");
+			return;
 		}
 		Writer.write("\n");
 		Writer.close();
 		Writer_login.close();
+		return;
 	}
 }
