@@ -8,11 +8,11 @@ public class Reservation {
         int choice,payment_amount=0,a=0,b=0,first_class_seats=0,second_class_seats=0,flag=0;
         String update = "";
 		FileWriter Writer = null;
-		Random rand = new Random();
 		String[] stations ={"beach","park","chetpet","saidapet","trisulam","tambaram sanatorium","tambaram","guduvancheri","potheri","chengalpattu"};
 		System.out.println(Arrays.toString(stations));
 		int[] range = {0,2,6,12,20,26,40,43,51,59};
         Writer = new FileWriter("Ticket booking history.txt",true);
+		Random rand = new Random();
 		int pnr = rand.nextInt(10000);
 		Writer.write("PNR: "+ pnr);
         Scanner sc = new Scanner(System.in);
@@ -154,6 +154,7 @@ public class Reservation {
         Writer.close();
 		
 		Writer_seats.close();
+		return;
 
     }
 }
